@@ -50,47 +50,6 @@ const CONFIG = {
         },
       ],
     },
-    external: {
-      header: 'Experience',
-
-      experiences: [
-    {
-      company: 'Tufts University',
-      position: 'Graduate Teaching Assistant',
-      from: 'January 2022',
-      to: 'December 2023',
-    },
-    {
-      company: 'Tufts University',
-      position: 'Graduate Research Assistant',
-      from: 'May 2022',
-      to: 'June 2023',
-    },
-    {
-      company: 'Indian Institute of Technology, Indore',
-      position: 'Machine Learning Engineer',
-      from: 'August 2021',
-      to: 'December 2021',
-    },
-    {
-      company: 'Eyecan',
-      position: 'Data Scientist',
-      from: 'Januray 2021',
-      to: 'December 2021',
-    },
-    {
-      company: 'Robro Systems Private Limited',
-      position: 'Machine Learning Engineer Intern',
-      from: 'June 2020',
-      to: 'December 2020',
-    },
-    {
-      company: 'Robro Systems Private Limited',
-      position: 'Python Developer Intern',
-      from: 'June 2019',
-      to: 'AUgust 2019',
-    },
-  ]
     }
   },
   seo: {
@@ -173,14 +132,14 @@ const CONFIG = {
       to: 'AUgust 2019',
     },
   ],
-  certifications: [
-    {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
-    },
-  ],
+  // certifications: [
+  //   {
+  //     name: 'Lorem ipsum',
+  //     body: 'Lorem ipsum dolor sit amet',
+  //     year: 'March 2022',
+  //     link: 'https://example.com',
+  //   },
+  // ],
   educations: [
     {
       institution: 'Tufts University',

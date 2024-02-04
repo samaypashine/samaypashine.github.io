@@ -28,28 +28,28 @@ const CONFIG = {
         projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
-    external: {
-      header: 'My Projects',
-      // To hide the `External Projects` section, keep it empty.
-      projects: [
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
-      ],
-    },
+    // external: {
+    //   header: 'My Projects',
+    //   // To hide the `External Projects` section, keep it empty.
+    //   projects: [
+    //     {
+    //       title: 'Project Name',
+    //       description:
+    //         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+    //       imageUrl:
+    //         'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+    //       link: 'https://example.com',
+    //     },
+    //     {
+    //       title: 'Project Name',
+    //       description:
+    //         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+    //       imageUrl:
+    //         'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+    //       link: 'https://example.com',
+    //     },
+    //   ],
+    // },
   },
   seo: {
     title: 'Portfolio of Samay Pashine',
@@ -124,7 +124,7 @@ const CONFIG = {
       company: 'Robro Systems Private Limited',
       position: 'Python Developer Intern',
       from: 'June 2019',
-      to: 'AUgust 2019',
+      to: 'August 2019',
     },
   ],
   // certifications: [
@@ -168,7 +168,7 @@ const CONFIG = {
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: true,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme

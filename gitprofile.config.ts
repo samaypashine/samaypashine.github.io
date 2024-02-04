@@ -68,21 +68,17 @@ const CONFIG = {
     fileUrl:
       'https://github.com/samaypashine.github.io/Samay_Pashine_Resume.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
-  Interests: [
+  skills: [
     'Machine Learning',
     'Artificial Intelligence',
     'Computer Vision',
     'Natural Language Processing',
-  ],
-  Languages: [
     'Python',
     'C++',
     'Shell Script',
     'Java',
     'MySQL',
     'PostgreSQL',
-  ],
-  Libraries: [
     'Tensorflow',
     'Pytorch',
     'Transformers',

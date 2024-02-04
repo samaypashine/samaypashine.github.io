@@ -17,7 +17,7 @@ const CONFIG = {
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'updated', // Sort projects by 'stars' or 'updated'
-        limit: 8, // How many projects to display.
+        limit: 6, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
           projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
@@ -50,6 +50,48 @@ const CONFIG = {
         },
       ],
     },
+    external: {
+      header: 'Experience',
+
+      experiences: [
+    {
+      company: 'Tufts University',
+      position: 'Graduate Teaching Assistant',
+      from: 'January 2022',
+      to: 'December 2023',
+    },
+    {
+      company: 'Tufts University',
+      position: 'Graduate Research Assistant',
+      from: 'May 2022',
+      to: 'June 2023',
+    },
+    {
+      company: 'Indian Institute of Technology, Indore',
+      position: 'Machine Learning Engineer',
+      from: 'August 2021',
+      to: 'December 2021',
+    },
+    {
+      company: 'Eyecan',
+      position: 'Data Scientist',
+      from: 'Januray 2021',
+      to: 'December 2021',
+    },
+    {
+      company: 'Robro Systems Private Limited',
+      position: 'Machine Learning Engineer Intern',
+      from: 'June 2020',
+      to: 'December 2020',
+    },
+    {
+      company: 'Robro Systems Private Limited',
+      position: 'Python Developer Intern',
+      from: 'June 2019',
+      to: 'AUgust 2019',
+    },
+  ]
+    }
   },
   seo: {
     title: 'Portfolio of Samay Pashine',
@@ -65,16 +107,33 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://github.com/samaypashine/Resume_Samay_Pashine.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://github.com/samaypashine.github.io/Samay_Pashine_Resume.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
-  skills: [
+  Interests: [
+    'Machine Learning',
+    'Artificial Intelligence',
+    'Computer Vision',
+    'Natural Language Processing',
+  ],
+  Languages: [
     'Python',
     'C++',
     'Shell Script',
+    'Java',
     'MySQL',
     'PostgreSQL',
+  ],
+  Libraries: [
+    'Tensorflow',
+    'Pytorch',
+    'Transformers',
+    'OpenCV',
+    'Numpy',
+    'Pandas',
+    'TFLite',
     'Git',
     'Docker',
+    'ROS',
   ],
   experiences: [
     {

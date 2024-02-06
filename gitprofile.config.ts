@@ -65,7 +65,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://github.com/samaypashine/samaypashine.github.io/blob/main/Samay_Pashine_Resume.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1RKRy0vNh02V1wMjFn9QOjUs5XNwl315O/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Machine Learning',
